@@ -1,15 +1,19 @@
 <template>
   <div>
+    <Header/>
+
     <ProductList/>
   </div>
 </template>
 
 <script>
+import Header from './components/Header';
 import ProductList from './components/ProductList';
 
 export default {
   name: 'App',
   components: {
+    Header,
     ProductList,
   },
 };
